@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/iv_note"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/compass"/>
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/tv_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác định đúng hướng"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+   />
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:fontFamily="serif"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:text="Xác định đúng hướng Xác định đúng hướng Xác định đúng hướngXác định đúng hướngXác định đúng hướngXác định đúng hướngXác định đúng hướng"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"
+        android:lineSpacingExtra="@dimen/_5sdp"
+        android:gravity="center"
+        />
+</LinearLayout>
